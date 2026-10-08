@@ -15,7 +15,7 @@ import java.util.Map;
  */
 public class StringDemo {
     public static void main(String[] args) {
-        String str = "《测试标题》请求处理审批##北京移动系统集成有限公司-合作拓展室##刘喜伟";
+        String str = "《测试标题》请求处理审批##";
         String[] split = str.split("##");
         if (split.length>2){
             System.out.println("Hello World!");
